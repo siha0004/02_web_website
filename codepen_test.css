@@ -1,0 +1,17 @@
+/********** CodePen Test 1 *********/
+
+/* 
+Billed kun faverigt hvis musen hover henover
+
+.grid_1-1-1-1 img {
+  filter: grayscale(1) brightness(0.5);
+  transition: 0.3s linear;
+}
+
+.grid_1-1-1-1 img:hover {
+  filter: grayscale(0);
+} 
+*/
+
+.grid_1-1-1-1 figure {
+}

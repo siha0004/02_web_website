@@ -1,0 +1,165 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+}
+
+/* BILLEDER */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 10px;
+}
+
+/* FONTS */
+@font-face {
+  font-family: Roboto Slab;
+  src: url("fonts/robotoslab-variablefont_wght-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* BASE */
+header {
+  z-index: 1000;
+  background-color: #a73121;
+  padding: 0.5rem;
+}
+
+main {
+  background-color: #dad4b5;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+footer {
+  background-color: #a73121;
+  padding: 1rem;
+}
+
+/* OVERSKRIFTER OG TEKST  */
+h1 {
+  font-family: Ubuntu Mono, sans-serif;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  margin: 2rem 1rem 1rem 1rem;
+  padding: 0;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  color: #a73121;
+}
+
+h2 {
+  font-family: Ubuntu Mono, sans-serif;
+  font-size: 2rem;
+  text-transform: lowercase;
+  /* margin: 2rem 1rem 1rem 1rem; */
+  padding: 0.2rem 1rem;
+  color: #a73121;
+}
+
+h3 {
+  font-family: Ubuntu Mono, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin: 2rem 1rem 0.5rem 1rem;
+  color: #a73121;
+}
+
+p {
+  font-family: Roboto Slab, serif;
+  font-size: 1rem;
+  margin: 0.5rem 1rem 1rem 1rem;
+  color: #2e2e2e;
+  line-height: 1.3rem;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+a:visited {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+a:hover {
+  color: #25b78f;
+  background-color: #a73121;
+}
+
+a:link {
+  font-family: Ubuntu Mono, sans-serif;
+  text-transform: uppercase;
+  color: #f1f1f1;
+  margin: 0.5rem 1rem 1rem 1rem;
+}
+
+header .logo a {
+  font-size: 2rem;
+}
+
+/* LISTER */
+dl {
+  background-color: #f1f1f1;
+  padding: 1rem;
+}
+
+dt {
+  grid-column-start: 1;
+  font-family: Roboto Slab, serif;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+  color: #2e2e2e;
+}
+
+dd {
+  grid-column-start: 2;
+  font-family: Roboto Slab;
+  color: #a73121;
+
+  font-style: italic;
+  margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+ul {
+  font-family: Roboto Slab, serif;
+  font-size: 1rem;
+  margin: 0.5rem 1rem 1rem 1rem;
+  color: #2e2e2e;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+/* KNAP */
+.knap {
+  background-color: #25b78f;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.knap a:hover {
+  background-color: #a73121;
+}
+
+/* BAGGRUNDSFARVER PÅ ENKELTE ELEMENTER */
+.grid_2-3 {
+  background-color: #f1f1f1;
+}
+
+.grid_5-3 > :last-child {
+  background-color: #25b78f;
+}
+
+/* SÆTNINGSLÆNGDE */
+.col {
+  max-width: 65ch;
+}
